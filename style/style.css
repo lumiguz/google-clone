@@ -1,0 +1,23 @@
+footer, footer a{
+    font-size: 1.6rem;
+    background-color: #161717;
+    color: #8a8890;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.footer--country{
+    padding: 1rem;
+    border-bottom: 2px solid #202125;
+}
+.footer--container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.footer--section{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    column-gap: 2.5rem;
+}

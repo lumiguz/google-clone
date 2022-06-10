@@ -54,6 +54,85 @@ header a {
   border-radius: 100rem;
 }
 
+/* ----main---- */
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: #202125;
+  height: 79.6vh;
+  color: #f3f7ff;
+}
+main a{
+  color: #f3f7ff;
+}
+.main--title {
+  text-align: center;
+  color: #f3f7ff;
+  margin-bottom: 3rem;
+  padding-top: 10rem;
+  font-size: 10rem;
+  font-weight: 400;
+}
+.main--search {
+  display: flex;
+  margin: 0 auto;
+  width: 65rem;
+  height: 4.5rem;
+  border: 1px solid #8a8890;
+  border-radius: 50px;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+.main--search:hover{
+  background-color: #8a88901b;
+  border: 1px solid transparent;
+  box-shadow: 0.1rem 0.1rem 1rem rgb(0, 0, 0, 0.2);
+}
+.main--search img {
+  height: 2rem;
+  padding: 1.25rem;
+  color: #8a8890;
+}
+#search {
+  width: 100%;
+  padding: 0;
+  background-color: transparent;
+  border: 1px solid #8a8890;
+  border: none;
+  color: #f3f7ff;
+  font-size: 1.6rem;
+}
+.main--btn{
+  display: flex;
+  margin: 0 auto;
+  column-gap: 1.5rem;
+}
+.main--btn__search, .main--btn__lucky{
+  padding: 1.5rem 2rem;
+  background-color: #8a88902f;
+  font-size: 1.4rem;
+  border-radius: 0.5rem;
+  margin-bottom: 3rem;
+  border: 1px solid transparent;
+}
+.main--btn__search:hover, .main--btn__lucky:hover{
+  cursor: pointer;
+  border: 1px solid #8a8890;
+
+}
+.main--p{
+  margin: 0 auto;
+  font-size: 1.4rem;
+  font-size: 300;
+}
+.main--p__span{
+  color: #688cbb;
+  padding-left: 0.6rem;
+}
+.main--p__span:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
 /* ----footer---- */
 footer,
 footer a {
